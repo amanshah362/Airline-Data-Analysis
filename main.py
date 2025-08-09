@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('C:\\Users\\Aman Shah\\Desktop\\PYTHON FROM SCRATCH\\Projects Data Manipulation\\P - 6\\airlines_flights_data.csv')
+df = pd.read_csv('airlines_flights_data.csv')
 
 
 # Understanding the Behaviour of Data
@@ -190,5 +190,6 @@ ax[7].set_title("Economy vs Business Class Price")
 plt.tight_layout(pad=4.0)
 fig.subplots_adjust(top=0.90, hspace=0.7, wspace=0.3)
 fig.suptitle("Employees Data Visualizations", fontsize=20, fontweight="bold")
-plt.savefig("C:\\Users\\Aman Shah\\Desktop\\PYTHON FROM SCRATCH\\Projects Data Manipulation\\P - 6\\Airline Flight Data Visualization.png" , dpi = 300 , bbox_inches = "tight")
+plt.savefig("Airline Flight Data Visualization.png" , dpi = 300 , bbox_inches = "tight")
+
 plt.show()
